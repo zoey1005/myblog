@@ -11,38 +11,34 @@ cn = "/cn/:year/:month/:day/:slug/"
 en = "/en/:year/:month/:day/:slug/"
 posts = "/posts/:year/:month/:day/:slug/"
 
-[[menu.en]]
-    name = "Home"
+[[menu.cn]]
+    name = "主页"
     url = "/"
     weight = 1
+[[menu.cn]]
+    name = "实习"
+    url = "/cn/internship/"
+    weight = 2
+[[menu.cn]]
+    name = "研究"
+    url = "/cn/projects/"
+    weight = 3
+[[menu.cn]]
+    name = "创业"
+    url = "/cn/leadership/"
+    weight = 4
+[[menu.cn]]
+    name = "English"
+    url = "/en/"
+    weight = 5
 [[menu.en]]
     name = "About"
     url = "/en/about/"
-    weight = 2
-[[menu.en]]
-    name = "Projects"
-    url = "/en/about2/"
-    weight = 3
-[[menu.en]]
-    name = "Posts"
-    url = "/en/posts/"
-    weight = 4
+    weight = 1
 [[menu.en]]
     name = "中文"
-    url = "/cn/posts/"
-    weight = 5
-[[menu.cn]]
-    name = "关于"
-    url = "/cn/about/"
-    weight = 1
-[[menu.cn]]
-    name = "日志"
-    url = "/cn/posts/"
-    weight = 2
-[[menu.cn]]
-    name = "English"
     url = "/"
-    weight = 3
+    weight = 2
 
 [params]
     description = "Peronal website of Your Name"
@@ -50,7 +46,7 @@ posts = "/posts/:year/:month/:day/:slug/"
     # Please make sure `blogDirNmae` matches the name used in `menu` above:
     blogDirName = "posts"
     # singleLang = true
-    defaultLang = "en"
+    defaultLang = "cn"
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs" 
     MathJaxVersion = "2.7.5"
     favicon = "media/hugo-logo.png"
