@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitae"
+title: "实习经历"
 type : list-single
 ---
 {{<block class="note">}}
